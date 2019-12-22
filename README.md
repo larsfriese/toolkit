@@ -1,3 +1,2 @@
-# aircrack-ng-automation
-A python script that automates the process of monitoring for networks, capturing a 4-way handshake and brute-forcing it.<br>
-Uses "aircrack-ng" package.
+# Ethical Hacking Toolkit
+A collection of python scripts for ethical hacking, specifically for WiFi cracking.
