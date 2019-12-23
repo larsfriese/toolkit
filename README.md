@@ -12,5 +12,5 @@ A collection of python scripts for ethical hacking, specifically for WiFi cracki
 `$ sudo apt-get install -y aircrack-ng `<br>
 `$ sudo apt-get install nikto -y `
 
-## # Installation
+### Installation
 Download all of the requirements and the scripts and you are ready to go.
