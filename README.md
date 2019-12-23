@@ -1,5 +1,5 @@
 # Toolkit
-###### An Ethical Hacking Toolkit
+#### An Ethical Hacking Toolkit
 A collection of python scripts for ethical hacking, specifically for WiFi cracking.
 
 **Requirements**
@@ -9,7 +9,7 @@ A collection of python scripts for ethical hacking, specifically for WiFi cracki
 | ------------- | ---------------- |
 | Aircrack-ng   | Nikto            |
 
-Installation:
-`$ sudo apt-get update`
-`$ sudo apt-get install -y aircrack-ng `
-`$ sudo apt-get install nikto -y `
+Installation:<br>
+`$ sudo apt-get update` <br>
+`$ sudo apt-get install -y aircrack-ng `<br>
+`$ sudo apt-get install nikto -y `<br>
