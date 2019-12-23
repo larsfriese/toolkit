@@ -1,6 +1,7 @@
 # importing libraries 
 import subprocess
 from subprocess import Popen, PIPE, CalledProcessError
+
 # import system libraries
 import os 
 import sys
@@ -9,8 +10,13 @@ import datetime
 import requests
 import signal
 import re
+
 #import colors
 from termcolor import colored
+
+# ! IMPORTANT !
+# Aircrack-ng needs to be installed on system for this to work.
+# Also, a second WiFi card needs to be available.
 
 #check available wifi interfaces
 def iwconfig():
