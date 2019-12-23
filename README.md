@@ -1,5 +1,5 @@
-# Ethical Hacking Toolkit
-(https://img.shields.io/github/forks/pandao/editor.md.svg) ![
+# Toolkit
+###### An Ethical Hacking Toolkit
 A collection of python scripts for ethical hacking, specifically for WiFi cracking.
 
 **Requirements**
@@ -8,3 +8,8 @@ A collection of python scripts for ethical hacking, specifically for WiFi cracki
 | WiFi Scripts  | Scanning Scripts |
 | ------------- | ---------------- |
 | Aircrack-ng   | Nikto            |
+
+Installation:
+`$ sudo apt-get update`
+`$ sudo apt-get install -y aircrack-ng `
+`$ sudo apt-get install nikto -y `
