@@ -1,4 +1,5 @@
 # Toolkit
+[![HitCount](http://hits.dwyl.com/larsfriese/toolkit.svg)](http://hits.dwyl.com/larsfriese/toolkit)
 A collection of python scripts for ethical hacking, specifically for WiFi cracking.
 
 ### Requirements
