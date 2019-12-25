@@ -9,11 +9,12 @@ def scan():
     os.system(cmd) # no subprocess, as we want to see live output
 
 def main():
+    scan()
+
+if __name__ == '__main__':
     if len(sys.argv) <= 1:
         print('ARGUMENT ERROR:\nUsage: sudo python3 target_server.py -t\n-t targets IP Adress')
         exit(1)
-    input_server = sys.argv[1]
-    scan()
-
-if __name__ == '__main__': 
+        
+    input_server = sys.argv[1] 
     main()
