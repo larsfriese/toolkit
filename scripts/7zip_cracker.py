@@ -4,13 +4,9 @@ import itertools
 import string
 from threading import Thread
 
-def main():
-    if len(sys.argv) <= 2:
-        print('ARGUMENT ERROR:\nUsage: sudo python3 7zip_cracker.py -f -w\n-f path to target 7zip archive\n-w path to wordlist')
-        exit(1)
-    
-    zipFile = zipfile.ZipFile(sys.argv[1])
-    passwords = open(sys.argv[2])
+def main(target, worlist):
+    zipFile = zipfile.ZipFile(target)
+    passwords = open(wordlist)
     for line in passwords.readlines():
         pwd = line.strip('\n')
         t = Thread(target=crack, args=(zipFile, pwd))
@@ -24,4 +20,10 @@ def crack(zip, pwd):
         pass
 
 if __name__ == '__main__': 
-    main()
+    if len(sys.argv) <= 2:
+        print('ARGUMENT ERROR:\nUsage: sudo python3 7zip_cracker.py -f -w\n-f path to target 7zip archive\n-w path to wordlist')
+        exit(1)
+
+    path_traget = sys.argv[1]
+    path_worlist = sys.argv[2]
+    main(path_target, path_worlist)

@@ -4,12 +4,9 @@ import os
 # ! IMPORTANT !
 # Nikto Package needs to be installed on system for this to work.
 
-def scan():
+def main(input_server):
     cmd = 'nikto -h ' + input_server + ' -p 80'
     os.system(cmd) # no subprocess, as we want to see live output
-
-def main():
-    scan()
 
 if __name__ == '__main__':
     if len(sys.argv) <= 1:
@@ -17,4 +14,4 @@ if __name__ == '__main__':
         exit(1)
         
     input_server = sys.argv[1] 
-    main()
+    main(input_server)
