@@ -3,6 +3,7 @@
 A collection of python scripts for ethical hacking, especically for WiFi cracking.
 
 ### Requirements
+- Linux OS
 - Python3 + every package listed in the requirements.txt file
 - Required installations: Aircrack-ng, Nikto
 
