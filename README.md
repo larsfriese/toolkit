@@ -1,5 +1,4 @@
 # Toolkit
-[![GitHub issues](https://img.shields.io/github/issues/larsfriese/toolkit.svg)](https://GitHub.com/larsfriese/toolkit/issues/) [![GitHub forks](https://img.shields.io/github/forks/larsfriese/toolkit.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/larsfriese/toolkit/network/)<br><br>
 A collection of python scripts for ethical hacking, especically for WiFi cracking.
 
 ### Requirements
