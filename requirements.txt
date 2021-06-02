@@ -8,5 +8,5 @@ query-string==2019.4.13
 request==2019.4.13
 requests==2.22.0
 termcolor==1.1.0
-urllib3==1.25.7
+urllib3==1.26.5
 python-nmap==0.6.1
